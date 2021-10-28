@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 1rem;
+}
+
+.bg-yellow {
+    background-color: #EAC926;
+}
+
+.bg-light-gray {
+    background-color: #ebebeb;
+}
+
+.bg-dark-gray {
+    background-color: #666;
+}
+
+h1, h4{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    list-style: none;
+    padding: 0px;
+}
+
+
+.fc-dark-gray {
+    color: #666;
+}
+

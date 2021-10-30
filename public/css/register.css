@@ -1,10 +1,16 @@
-.registration-form {
+main {
+    width: 90vw;
     margin: auto;
+}
+
+.registration-form {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90vw;
+    
     margin-bottom: 2rem;
+    width: 100%;
 }
 
 .form-data-section {

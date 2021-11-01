@@ -24,7 +24,7 @@
                 <img class="logo-pic" src="/images/logo-mercado-liebre.svg" alt="logo de mercado liebre">
             </h1>
 
-            <div class="search-bar"><input placeholder="Buscar productos, marcas"><button class="fas fa-search"></button></div>
+            <form class="search-bar"><input placeholder="Buscar productos, marcas"><button class="fas fa-search"></button></form>
 
             <p class="subtitle"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
             
@@ -50,20 +50,20 @@
         </div>
 
     </header>
-
+    
     <main>
         <form class="registration-form" action="/" method="get">
             <div class="form-data-section">
-                <label for="username">Nombre de usuario</label> 
-                <input type="text" name="username" id="username" class="input-field">
+
+                <input type="text" name="username" id="username" class="input-field"  placeholder="Nombre de usuario">
             </div>
 
             <div class="form-data-section">
-                <label for="password">Contraseña</label> 
-                <input type="password" name="password" class="input-field">
+                
+                <input type="password" name="password" class="input-field" placeholder="Contraseña">
             </div>
 
-            <button class="green-button">Entrar</button>
+            <button class="form-button blue-button">Entrar</button>
         </form>
     </main>
 </body>

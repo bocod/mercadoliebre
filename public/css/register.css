@@ -18,6 +18,7 @@ main {
 .form-data-section {
     margin: 1rem;
     width: 100%;
+    max-width: 500px;
 }
 
 .form-data-section label {
@@ -51,7 +52,11 @@ main {
 }
 
 .gray-button {
+    border-color: #666;
     background-color: #ebebeb;
+    font-weight: bold;
+    width: 50%;
+    max-width: 250px;
 }
 
 .blue-button {
@@ -60,4 +65,5 @@ main {
     color: #fff;
     font-weight: bold;
     width: 50%;
+    max-width: 250px;
 }

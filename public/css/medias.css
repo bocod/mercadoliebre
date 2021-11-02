@@ -29,6 +29,9 @@
         flex-direction: row;
         justify-content: space-between;
     }
+    .logo-pic{
+        max-width: 25%;
+    }
     .search-bar{
         padding-left: 1rem;
         padding-right: 1rem;
@@ -59,7 +62,9 @@
         max-width: 1200px;
         margin: auto;
     }
-
+    .main-header {
+        margin-bottom: 2rem;
+    }
     .wrapper {
         width: 25%;
     }

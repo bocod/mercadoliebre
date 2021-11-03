@@ -42,6 +42,10 @@ header {
     display: none;
 }
 
+.navigation {
+    margin-top: 1rem;
+}
+
 .burger-menu {
     background-color: #1259c3;   
     color: white;

@@ -29,13 +29,22 @@ Descripciones: 16px
     margin: 0 auto;
 }
 
+.cards-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper  {
+    width: 100%;
+    padding: 1rem;
+}
+
 .product {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
 }
 
-.product-details {
+.product .product-details {
     background-color: white;
     border-top: solid #ebebeb 1px;
     padding: 15px;
@@ -49,58 +58,40 @@ Descripciones: 16px
     color: #39b54a;
 }
 
-.freight i {
+.product .product-details .truck i {
     display: block;
     font-size: 16px;
-    background-color: #ffffff;
-    border: solid 1px;
-    border-radius: 50%;
     padding: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border: solid 1px #39b54a;
+    border-radius: 50%;
     position: absolute;
     right: 20px;
     top: -15px;
-    width: 30px;
-    height: 30px;
 }
 
-.price {
+.product .product-details .price-n-discount {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.price-n-discount .price {
     font-size: 18px;
     width: 30%;
 }
 
-.discount {
+.price-n-discount .discount {
     width: 70%;
     font-size: 16px;
+    padding-left: 10%;
 }
 
-.description {
+.product-details .description {
     font-size: 16px;
-    display: none;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    background-color: #ebebeb;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 10px;
-    width: 90vw;
-}
-
-footer i {
-    color: #1259c3;
-    font-size: 2em;
-    margin-bottom: 10px;
-    margin-top: 2em;
-}
-
-footer p {
-    margin: 0;
-}
-
-.copy{
-    margin-top: 2em;
-    text-align: left;
+    margin-top: 5px;
 }
 

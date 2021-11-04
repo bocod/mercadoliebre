@@ -58,7 +58,7 @@ Descripciones: 16px
     color: #39b54a;
 }
 
-.product .product-details .truck i {
+.product .product-details .truck {
     display: block;
     font-size: 16px;
     padding: 5px;

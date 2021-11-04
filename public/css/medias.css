@@ -80,7 +80,7 @@
     }
 
     .product:hover .truck {
-        transform: rotate(90deg);
+        transform: rotate(-90deg);
     }
 
     .upper-footer {

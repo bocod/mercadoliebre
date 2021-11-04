@@ -50,6 +50,11 @@
     .wrapper {
         width: 50%;
     }
+
+    .upper-footer {
+        max-width: 500px;
+        align-self: center;
+    }
     
 }
 
@@ -98,8 +103,15 @@
         transform: rotate(-90deg);
     }
 
+    footer {
+        max-width: 1200px;
+    }
     .upper-footer {
         display: flex;
         flex-direction: row;
+        max-width: none;
+    }
+    .upper-footer .commercial-advice {
+        padding: 1rem;
     }
 }

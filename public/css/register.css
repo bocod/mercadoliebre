@@ -3,8 +3,11 @@
 }
 
 main {
-    width: 90vw;
     margin: auto;
+}
+
+.container {
+    padding: 1rem;
 }
 
 .registration-form {

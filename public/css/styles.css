@@ -23,7 +23,8 @@ Descripciones: 16px
     margin: 0 auto;
 }
 
-.container section {
+.container .upper-container,
+.container .lower-container {
     margin: 0 auto;
     width: 90vw;
 }

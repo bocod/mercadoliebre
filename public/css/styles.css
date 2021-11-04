@@ -18,15 +18,18 @@ Descuentos: 16px
 Descripciones: 16px
 */
 
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
 
 .container {
-    width: 90vw;
     margin: 0 auto;
+}
+
+.container section {
+    margin: 0 auto;
+    width: 90vw;
+}
+
+.subtitle-padded {
+    padding: 1rem;
 }
 
 .cards-section {

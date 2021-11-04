@@ -6,10 +6,12 @@
 
 html, 
 body {
-    background-color: #ebebeb;
     font-family: 'Roboto', sans-serif;
 }
 
+.bg-fff {
+    background-color: #fff;
+}
 
 .bg-yellow {
     background-color: #EAC926;

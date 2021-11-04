@@ -67,3 +67,7 @@ main {
     width: 50%;
     max-width: 250px;
 }
+
+.login-button:hover {
+    background-color: #0022AA;
+}

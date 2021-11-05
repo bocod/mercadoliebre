@@ -55,6 +55,7 @@ main {
 }
 
 .gray-button {
+    color: #666;
     border-color: #666;
     background-color: #ebebeb;
     font-weight: bold;
@@ -71,6 +72,6 @@ main {
     max-width: 250px;
 }
 
-.login-button:hover {
-    background-color: #0022AA;
+.emphasize-button:hover {
+    background-color: #3483fa;
 }

@@ -80,6 +80,7 @@ footer .commercial-advice i {
     font-size: 2em;
     margin-bottom: 10px;
     margin-top: 2em;
+    padding: 0px 35px 45px 35px;
 }
 
 footer .commercial-advice i:hover {
@@ -91,6 +92,7 @@ footer p {
 }
 
 .copy{
+    color: #999;
     margin-top: 2em;
     text-align: left;
 }

@@ -16,13 +16,12 @@
     .navigation .menu {
         display: flex;
         flex-direction: row;
-    }
-    .navigation  .menu {
+        flex-wrap: wrap;
         padding-left: 1rem;
     }
 
     .navigation .menu li {
-        padding: 0px 8px 0px 8px;
+        padding: 8px 8px 0px 8px;
         font-size: 13px;
     }
 

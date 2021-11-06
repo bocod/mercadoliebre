@@ -36,7 +36,6 @@
         flex-wrap: nowrap;
         justify-content: space-between;
         align-items: flex-start;
-        margin-bottom: 2rem;
     }
     .navigation {
         display: flex;
@@ -93,7 +92,9 @@
     .main-header .subtitle {
         text-align: right;
     }
-
+    .navigation .menu li {
+        padding: 0px 8px 0px 8px;
+    }
     .wrapper {
         width: 25%;
     }
